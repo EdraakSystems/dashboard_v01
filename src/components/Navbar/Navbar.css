@@ -116,6 +116,7 @@
 
 /* For phones Only */
 @media (max-width:600px) {
+
     .nav_logo {
         font-weight: 200;
         font-size: 1.5rem;

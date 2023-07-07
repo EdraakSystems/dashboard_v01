@@ -409,6 +409,11 @@ td {
     border-top: 1px solid var(--sec_clr);
 }
 
+.cards3_bill_detail {
+    display: flex;
+    flex-direction: column;
+}
+
 .cards3_bill_detail>h3 {
     margin: 0 1rem;
     font-size: 0.75rem;
@@ -531,14 +536,13 @@ td {
     }
 
     .cards {
-        grid-template-columns: 1fr 1fr;
         max-width: 80%;
         margin-inline: auto;
     }
 
     .cards_data {
         padding: 0.5rem 0.75rem;
-        gap: 5.5rem;
+        gap: 4rem;
     }
 
     .cards_data_info>h5 {
@@ -569,7 +573,6 @@ td {
     }
 
     .cards_2 {
-        grid-template-columns: 1fr 1fr;
         max-width: 80%;
         margin-inline: auto;
     }
@@ -586,9 +589,24 @@ td {
     }
 
     .card_3 {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'tablee purchase'
+            'sale sale';
         width: 80%;
         margin-inline: auto;
+    }
+
+    .cards_3_table {
+        grid-area: tablee;
+    }
+
+    .cards_3_purchase {
+        grid-area: purchase;
+    }
+
+    .cards_3_top_selling {
+        grid-area: sale;
     }
 
     .cards_2_data_info2>h3 {
@@ -603,7 +621,6 @@ td {
     .table_filter {
         justify-content: center;
         gap: 1rem;
-        flex-wrap: wrap;
     }
 
     .table_search {
@@ -654,17 +671,14 @@ td {
 @media (max-width:600px) {
     .dashboard_info {
         font-size: 0.85rem;
+        width: 68%;
+        margin: 0 auto;
+        padding: 0;
     }
-
-    /* .cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 0.7rem;
-        max-width: 80%;
-    } */
 
     .cards_data {
         padding: 0.5rem 0.75rem;
-        gap: 2.5rem;
+        gap: 5.5rem;
     }
 
     .cards_data_info>h5 {
@@ -712,8 +726,24 @@ td {
     }
 
     .card_3 {
-        flex-direction: column;
-        gap: 0.5rem;
+        grid-template-areas:
+            'tablee tablee'
+            'purchase purchase'
+            'sale sale';
+        width: 68%;
+        margin-inline: auto;
+    }
+
+    .cards_3_table {
+        grid-area: tablee;
+    }
+
+    .cards_3_purchase {
+        grid-area: purchase;
+    }
+
+    .cards_3_top_selling {
+        grid-area: sale;
     }
 
     .cards_2_data_info2>h3 {
@@ -755,11 +785,6 @@ td {
         padding: 0.25rem;
     }
 
-    .card3_container {
-        flex-direction: column;
-        width: 100%;
-    }
-
     .cards3_bill {
         gap: 0.85rem;
         margin: 0 1rem;
@@ -768,6 +793,23 @@ td {
     }
 
     .details_logo_2 :first-child {
+        font-size: 0.75rem;
+    }
+
+    .cards3_bill_detail {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .cards_3_purchase_div>h3 {
+        width: 80%;
+        font-size: 0.65rem;
+        font-weight: 200;
+        text-align: center;
+        margin-inline: auto;
+    }
+
+    .details>* {
         font-size: 0.75rem;
     }
 }
