@@ -640,11 +640,11 @@ td {
     }
 
     th {
-        padding: 0.25rem;
+        padding: 0.35rem;
     }
 
     td {
-        padding: 0.25rem;
+        padding: 0.45rem;
     }
 
     .cards3_bill {
@@ -658,13 +658,10 @@ td {
         font-size: 0.75rem;
     }
 
-    /* .cards_3_table,
-    .cards_3_purchase,
-    .cards_3_top_selling,
-    .cards,
-    .cards_2 {
-        width: 50%;
-    } */
+    .card3_list_ul>li>img {
+        margin-inline: 5.5rem;
+    }
+
 }
 
 /* For phones Only */
@@ -708,7 +705,8 @@ td {
         padding: 0.25rem 0.35rem;
     }
 
-    .cards_2 {
+    .cards_2,
+    .cards {
         grid-template-columns: 1fr 1fr;
         grid-gap: 0.5rem;
         max-width: 80%;
