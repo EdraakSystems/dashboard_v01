@@ -1,0 +1,185 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white);
+}
+
+.nav_logo {
+    color: var(--text_clr);
+    font-weight: 300;
+    font-size: 2.25rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.nav_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.nav_product_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--pri_clr);
+}
+
+.nav_product_list>h5 {
+    font-size: small;
+    color: var(--sec_clr);
+}
+
+
+.nav_task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color: var(--pri_clr);
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    color: white;
+    background: var(--sec_clr);
+    width: 2rem;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    bottom: -10px;
+    left: 30%;
+    font-size: xx-small;
+}
+
+
+.nav_task>h5 {
+    font-size: small;
+    color: var(--sec_clr);
+}
+
+.progress_parent {
+    width: 7rem;
+    height: 0.5rem;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+.progress_child {
+    width: 2.5rem;
+    height: 0.5rem;
+    background: var(--pri_clr);
+    border-radius: 5px;
+}
+
+.nav_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg_clr);
+    color: var(--sec_clr);
+    width: 12rem;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+
+.nav_search div {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.nav_search div p {
+    font-size: x-small;
+}
+
+.nav_user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-inline: 15px;
+}
+
+.nav_user img {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.menu {
+    display: none;
+}
+
+/* For phones Only */
+@media (max-width:600px) {
+    .nav_logo {
+        font-weight: 200;
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+    .menu {
+        display: block;
+        margin: 0 1rem;
+    }
+
+    .nav_product,
+    .nav_task,
+    .nav_search,
+    .nav_user {
+        display: none;
+    }
+}
+
+/* For Tablet Portrait-up */
+@media (min-width:599px) {
+    .nav_logo {
+        font-weight: 200;
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+    .menu {
+        display: block;
+        margin: 0 1rem;
+    }
+
+    .nav_product,
+    .nav_task,
+    .nav_search,
+    .nav_user {
+        display: none;
+    }
+
+}
+
+/* For Tablet landscape-up */
+@media (min-width:900px) {
+    .menu {
+        display: none;
+    }
+
+    .nav_product,
+    .nav_search,
+    .nav_user {
+        display: flex;
+    }
+
+    .nav_task {
+        display: none;
+    }
+}
+
+/* For Desktop-up */
+@media (min-width:1200px) {
+    .nav_task {
+        display: flex;
+    }
+}
+
+/* For Big-Desktop-up */
+@media (min-width:1800px) {}
