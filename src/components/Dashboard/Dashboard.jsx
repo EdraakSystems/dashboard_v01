@@ -148,12 +148,12 @@ const Dashboard = () => {
                 <BsSearch />
               </button>
             </div>
-            <ul>
+            <div className='table_button'>
               <button>All</button>
               <button>Open</button>
               <button>Completed</button>
               <button>Filled</button>
-            </ul>
+            </div>
           </div>
           <div className="table_data">
             <table>

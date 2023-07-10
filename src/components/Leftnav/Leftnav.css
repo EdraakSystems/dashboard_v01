@@ -38,6 +38,10 @@
     color: var(--pri_clr);
 }
 
+.left_nav_list button {
+    font-size: 1.25rem;
+}
+
 .left_nav_list h5 {
     color: var(--sec_clr);
 }

@@ -42,7 +42,9 @@ const Navbar = () => {
       <div className="nav_search">
         <button><RiArrowDropDownLine /></button>
         <input type="text" placeholder='Search' />
-        <BsSearch />
+        <button>
+          <BsSearch />
+        </button>
       </div>
       <div className='nav_user'>
         <button> <GrNotification /></button>

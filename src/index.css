@@ -80,6 +80,7 @@ button {
   border: none;
   cursor: pointer;
   background: none;
+  color: var(--sec_clr);
 }
 
 input:focus {
