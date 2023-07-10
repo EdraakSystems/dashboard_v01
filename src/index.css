@@ -87,7 +87,6 @@ input:focus {
   outline-color: transparent;
 }
 
-
 /* For phones Only */
 @media (max-width:600px) {
   h2 {
