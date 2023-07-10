@@ -206,52 +206,66 @@ const Dashboard = () => {
           <div className="cards_3_purchase_div">
             <h2>Purchase Orders</h2>
             <div className="cards3_bill">
-              <h3>Received orders</h3>
-              <h3>$20</h3>
-              <h3>Total Cost (USD)</h3>
-              <h3>$4600</h3>
+              <div>
+                <h3>Received orders</h3>
+                <h3>$20</h3>
+              </div>
+              <div>
+                <h3>Total Cost (USD)</h3>
+                <h3>$4600</h3>
+              </div>
             </div>
             <hr className="horizontal_line" />
 
             <div className="cards3_bill_detail">
               <h3>Incoming Purchase orders</h3>
               <div className="details">
-                <div className='details_logo_1'>
+                <div className='details_div details_logo_1'>
                   <FaDotCircle />
-                  <h3>JP0005</h3>
-                  <h3>$1200</h3>
+                  <div>
+                    <h3>JP0005</h3>
+                    <h3>$1200</h3>
+                  </div>
                 </div>
                 <h6>Shahab Yaseen</h6>
               </div>
               <div className="details">
-                <div className='details_logo_2'>
+                <div className='details_div details_logo_2'>
                   <FaDotCircle />
-                  <h3>JP0005</h3>
-                  <h3>$1000</h3>
+                  <div>
+                    <h3>JP0005</h3>
+                    <h3>$1000</h3>
+                  </div>
                 </div>
                 <h6>Shahab Yaseen</h6>
               </div>
               <div className="details">
-                <div className='details_logo_3'>
+                <div className='details_div details_logo_3'>
                   <FaDotCircle />
-                  <h3>JP0005</h3>
-                  <h3>$200</h3>
+                  <div>
+                    <h3>JP0005</h3>
+                    <h3>$200</h3>
+                  </div>
                 </div>
                 <h6>Shahab Yaseen</h6>
               </div>
               <div className="details">
-                <div className='details_logo_4'>
+                <div className='details_div details_logo_4'>
                   <FaDotCircle />
-                  <h3>JP0005</h3>
-                  <h3>$650</h3>
+                  <div>
+                    <h3>JP0005</h3>
+                    <h3>$650</h3>
+                  </div>
                 </div>
                 <h6>Shahab Yaseen</h6>
               </div>
               <div className="details">
-                <div className='details_logo_5'>
+                <div className='details_div details_logo_5'>
                   <FaDotCircle />
-                  <h3>JP0005</h3>
-                  <h3>$10450</h3>
+                  <div>
+                    <h3>JP0005</h3>
+                    <h3>$10450</h3>
+                  </div>
                 </div>
                 <h6>Shahab Yaseen</h6>
               </div>
