@@ -28,7 +28,6 @@ const Dashboard = () => {
           <button>Edit Layout</button>
           <button>Filter by Year</button>
         </div>
-
       </div>
       <section className="cards">
         <div className="cards_data cards_data_1">

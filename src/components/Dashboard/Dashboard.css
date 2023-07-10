@@ -758,8 +758,8 @@ td {
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
             'tablee tablee'
-            'purchase purchase'
-            'sale sale';
+            'purchase sale'
+            'purchase sale';
     }
 
     .cards_3_table {
@@ -784,14 +784,24 @@ td {
         font-size: 0.75rem;
     }
 
+    .card3_list_ul>li>img {
+        width: 40%;
+    }
+
+    .details {
+        width: 80%;
+        margin: 0 auto;
+    }
+
     .table_filter {
         justify-content: space-around;
         margin: 0.25rem 0;
     }
 
     .cards3_bill div {
-        width: 98%;
+        width: 80%;
         font-size: 0.75rem;
+        margin: 0 auto;
     }
 
     .cards_3_purchase_div>h2 {
@@ -828,6 +838,15 @@ td {
         margin: 0 1rem;
         font-size: 0.55rem;
         font-weight: 100;
+    }
+
+    .cards3_bill_detail>h3 {
+        text-align: center;
+    }
+
+    .cards_3_purchase_div>button {
+        text-align: center;
+        margin-inline: auto;
     }
 
 }
@@ -910,7 +929,7 @@ td {
 
 
     .cards3_bill div {
-        width: 98%;
+        width: 75%;
         font-size: 0.65rem;
 
     }
@@ -987,6 +1006,10 @@ td {
 
     .details div :nth-child(3) {
         margin-left: 22rem;
+    }
+
+    .cards3_bill_detail>h3 {
+        text-align: center;
     }
 }
 
