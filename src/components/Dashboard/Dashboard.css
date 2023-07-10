@@ -26,6 +26,7 @@
     background-color: lightgray;
     padding: 0.35rem 0.5rem;
     border-radius: 10px;
+
 }
 
 .cards {
@@ -58,7 +59,7 @@
     font-weight: 100;
 }
 
-.cards_data_info>h3 {
+.cards_data_info h3 {
     color: white;
     font-size: 1.5rem;
     font-weight: 200;
@@ -69,6 +70,11 @@
     flex-direction: column;
     justify-content: space-around;
     gap: 1.5rem;
+    font-size: x-large;
+}
+
+.cards_data_logo button {
+    color: white;
     font-size: x-large;
 }
 
@@ -167,7 +173,7 @@
 
 }
 
-.cards_2_data_info2>div {
+.cards_2_data_info2 button {
     font-size: x-large;
     background: var(--bg_clr);
     width: 2.25rem;
@@ -200,7 +206,11 @@
     gap: 0.5rem;
 }
 
-.table_caption>h4 {
+.table_caption_div {
+    display: flex;
+}
+
+.table_caption_div>h4 {
     font-size: 0.75rem;
     color: var(--sec_clr);
     font-weight: 200;
@@ -239,8 +249,15 @@
     border-bottom: 1px solid var(--sec_clr);
 }
 
-.table_search>p {
-    font-size: 0.75rem;
+.table_search input {
+    width: fit-content;
+    border: none;
+    font-size: 0.95rem;
+    margin-left: 0.35rem;
+}
+
+.table_search button {
+    color: var(--sec_clr);
 }
 
 .table_data table {
@@ -473,7 +490,7 @@ td {
     margin: 0 2.5rem;
 }
 
-.cards_3_purchase_div>h3 {
+.cards_3_purchase_div>button {
     font-size: small;
     color: var(--pri_clr);
     margin-bottom: 0.7rem;
@@ -799,7 +816,7 @@ td {
         margin-inline: auto;
     }
 
-    .cards_3_purchase_div>h3 {
+    .cards_3_purchase_div>button {
         width: 80%;
         font-size: 0.65rem;
         font-weight: 200;

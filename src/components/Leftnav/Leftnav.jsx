@@ -18,9 +18,9 @@ import { AiOutlineSetting } from 'react-icons/ai'
 const Leftnav = () => {
     return (
         <div className='left_nav'>
-            <div className="left_menu">
+            <button className="left_menu">
                 <RiMenuFoldFill />
-            </div>
+            </button>
             <li className="left_nav_list first_child">
                 <LuLayoutDashboard />
                 <h5>Dashboard</h5>
@@ -29,27 +29,27 @@ const Leftnav = () => {
             <li className="left_nav_list">
                 <MdOutlineInventory />
                 <h5>Inventory</h5>
-                <RiArrowDropDownLine />
+                <button><RiArrowDropDownLine /></button>
             </li>
             <li className="left_nav_list">
                 <BsWindowDesktop />
                 <h5>CBM</h5>
-                <RiArrowDropDownLine />
+                <button><RiArrowDropDownLine /></button>
             </li>
             <li className="left_nav_list">
                 <AiOutlineShoppingCart />
                 <h5>Orders</h5>
-                <RiArrowDropDownLine />
+                <button><RiArrowDropDownLine /></button>
             </li>
             <li className="left_nav_list">
                 <CgShutterstock />
                 <h5>Stocks</h5>
-                <RiArrowDropDownLine />
+                <button><RiArrowDropDownLine /></button>
             </li>
             <li className="left_nav_list">
                 <AiOutlineFileSync />
                 <h5>Records</h5>
-                <RiArrowDropDownLine />
+                <button><RiArrowDropDownLine /></button>
             </li>
             <li className="left_nav_list">
                 <BsArrowRepeat />
@@ -66,7 +66,7 @@ const Leftnav = () => {
             <li className="left_nav_list">
                 <AiOutlineSetting />
                 <h5>Settings</h5>
-                <RiArrowDropDownLine />
+                <button><RiArrowDropDownLine /></button>
             </li>
         </div>
     )

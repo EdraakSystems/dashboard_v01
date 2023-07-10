@@ -16,6 +16,7 @@ import { MdShelves } from 'react-icons/md'
 import { LiaHandHoldingHeartSolid } from 'react-icons/lia'
 import { BsSearch } from 'react-icons/bs'
 import { FaDotCircle } from 'react-icons/fa'
+import { RiArrowDropDownLine } from 'react-icons/ri'
 
 
 const Dashboard = () => {
@@ -24,8 +25,8 @@ const Dashboard = () => {
       <div className='dashboard_info'>
         <h2>Sales Activity for this week</h2>
         <div>
-          <h5>Edit Layout</h5>
-          <h5>Filter by Year</h5>
+          <button>Edit Layout</button>
+          <button>Filter by Year</button>
         </div>
 
       </div>
@@ -38,7 +39,7 @@ const Dashboard = () => {
           </div>
           <div className='cards_data_logo'>
             <HiOutlineNewspaper />
-            <BsArrowRightShort />
+            <button><BsArrowRightShort /></button>
           </div>
         </div>
         <div className="cards_data cards_data_2">
@@ -59,7 +60,7 @@ const Dashboard = () => {
           </div>
           <div className='cards_data_logo'>
             <BsCheckCircle />
-            <BsArrowRightShort />
+            <button><BsArrowRightShort /></button>
           </div>
         </div>
         <div className="cards_data cards_data_4">
@@ -83,9 +84,9 @@ const Dashboard = () => {
           </div>
           <div className='cards_2_data_info2'>
             <h3>89.00</h3>
-            <div>
+            <button>
               <MdKeyboardArrowRight />
-            </div>
+            </button>
           </div>
         </div>
         <div className="cards_2_data">
@@ -97,9 +98,9 @@ const Dashboard = () => {
           </div>
           <div className='cards_2_data_info2'>
             <h3>267.00</h3>
-            <div>
+            <button>
               <MdKeyboardArrowRight />
-            </div>
+            </button>
           </div>
         </div>
         <div className="cards_2_data">
@@ -111,9 +112,9 @@ const Dashboard = () => {
           </div>
           <div className='cards_2_data_info2'>
             <h3>2.00</h3>
-            <div>
+            <button>
               <MdKeyboardArrowRight />
-            </div>
+            </button>
           </div>
         </div>
         <div className="cards_2_data">
@@ -125,9 +126,9 @@ const Dashboard = () => {
           </div>
           <div className='cards_2_data_info2'>
             <h3>684.00</h3>
-            <div>
+            <button>
               <MdKeyboardArrowRight />
-            </div>
+            </button>
           </div>
         </div>
       </div>
@@ -135,18 +136,23 @@ const Dashboard = () => {
         <div className="cards_3_table ">
           <div className="table_caption">
             <h2>Latest Sales Orders-By Sales Channels</h2>
-            <h4>Enable</h4>
+            <div className='table_caption_div'>
+              <h4>Enable</h4>
+              <button><RiArrowDropDownLine /></button>
+            </div>
           </div>
           <div className="table_filter">
             <div className="table_search">
-              <p>510245215</p>
-              <BsSearch />
+              <input type="text" placeholder='510245215' />
+              <button>
+                <BsSearch />
+              </button>
             </div>
             <ul>
-              <li>All</li>
-              <li>Open</li>
-              <li>Completed</li>
-              <li>Filled</li>
+              <button>All</button>
+              <button>Open</button>
+              <button>Completed</button>
+              <button>Filled</button>
             </ul>
           </div>
           <div className="table_data">
@@ -250,7 +256,7 @@ const Dashboard = () => {
                 <h6>Shahab Yaseen</h6>
               </div>
             </div>
-            <h3>View all</h3>
+            <button>View all</button>
           </div>
         </div>
         <div className=" cards_3_top_selling">

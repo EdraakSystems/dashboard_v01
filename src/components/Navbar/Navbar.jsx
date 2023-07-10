@@ -40,17 +40,15 @@ const Navbar = () => {
         <h5>Track: here comes on 33%</h5>
       </div>
       <div className="nav_search">
-        <div>
-          <RiArrowDropDownLine />
-          <p>Search</p>
-        </div>
+        <button><RiArrowDropDownLine /></button>
+        <input type="text" placeholder='Search' />
         <BsSearch />
       </div>
       <div className='nav_user'>
-        <GrNotification />
+        <button> <GrNotification /></button>
         <img src={img} alt="profile" />
-        <h6>Muhammad Hamza</h6>
-        <RiArrowDropDownLine />
+        <h6>Muhammad Shahab</h6>
+        <button><RiArrowDropDownLine /></button>
       </div>
       <div className="menu">
         <LuMenu />

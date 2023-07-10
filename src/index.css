@@ -6,9 +6,9 @@
 
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 :root {
   --pri_clr: #003cd1;
@@ -76,6 +76,17 @@ h2 {
   margin: 1rem 1rem;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+input:focus {
+  outline-color: transparent;
+}
+
+
 /* For phones Only */
 @media (max-width:600px) {
   h2 {
@@ -106,13 +117,6 @@ h2 {
 @media (min-width:600px) {
   .sideNavbar {
     display: none;
-  }
-
-  h2 {
-    font-size: 0.75rem;
-    font-weight: 100;
-    text-align: center;
-    margin: 0.5rem 1rem;
   }
 }
 
