@@ -1,0 +1,31 @@
+/* Media Queries */
+@media (width < 280px) {
+    .footer_title {
+        font-size: x-small;
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--sec_clr);
+        text-align: center;
+    }
+}
+
+@media (min-width: 280px) {
+    .footer_title {
+        font-size: x-small;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--sec_clr);
+        text-align: center;
+    }
+}
+
+@media (min-width: 475px) {
+    .footer_title {
+        font-size: 0.75rem;
+        text-align: center;
+        user-select: none;
+        margin-top: 1rem;
+    }
+}

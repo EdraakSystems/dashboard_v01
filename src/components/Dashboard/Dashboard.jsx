@@ -30,7 +30,7 @@ const Dashboard = () => {
         </div>
 
       </div>
-      <div className="cards">
+      <section className="cards">
         <div className="cards_data cards_data_1">
           <div className='cards_data_info'>
             <h5>To be Fulfilled</h5>
@@ -73,8 +73,8 @@ const Dashboard = () => {
             <AiOutlineUserAdd />
           </div>
         </div>
-      </div>
-      <div className="cards_2">
+      </section>
+      <section className="cards_2">
         <div className="cards_2_data">
           <div className='cards_2_data_info1'>
             <div className='cards_2_logo logo_1'>
@@ -131,8 +131,8 @@ const Dashboard = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div className="card_3">
+      </section>
+      <section className="card_3">
         <div className="cards_3_table ">
           <div className="table_caption">
             <h2>Latest Sales Orders-By Sales Channels</h2>
@@ -317,8 +317,7 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-      </div>
-
+      </section>
     </div >
   )
 }

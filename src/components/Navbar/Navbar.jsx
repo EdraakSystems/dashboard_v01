@@ -14,7 +14,7 @@ import { LuMenu } from 'react-icons/lu'
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <navbar className='navbar'>
       <h2 className="nav_logo">Logo</h2>
       <ul className='nav_product'>
         <li className='nav_product_list'>
@@ -55,7 +55,7 @@ const Navbar = () => {
       <div className="menu">
         <LuMenu />
       </div>
-    </div>
+    </navbar>
   )
 }
 

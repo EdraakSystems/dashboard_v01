@@ -17,7 +17,7 @@ import { AiOutlineSetting } from 'react-icons/ai'
 
 const Leftnav = () => {
     return (
-        <div className='left_nav'>
+        <aside className='left_nav'>
             <button className="left_menu">
                 <RiMenuFoldFill />
             </button>
@@ -68,7 +68,7 @@ const Leftnav = () => {
                 <h5>Settings</h5>
                 <button><RiArrowDropDownLine /></button>
             </li>
-        </div>
+        </aside>
     )
 }
 
