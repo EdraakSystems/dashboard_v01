@@ -184,11 +184,8 @@
 }
 
 /* For Desktop-up */
-@media (min-width:1200px) {
+@media (min-width:1250px) {
     .nav_task {
         display: flex;
     }
 }
-
-/* For Big-Desktop-up */
-@media (min-width:1800px) {}
